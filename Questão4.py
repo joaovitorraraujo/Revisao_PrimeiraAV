@@ -13,10 +13,10 @@ print('\nEscolha uma opção:\n1.Conversor de Celsius para Fahrenheit\n2.Convers
 opcao = int(input('>>Opção: '))
 match opcao:
     case (1):
-        celsius = float(input('\nDigite a temperatura em Celsius: '))
+        celsius = float(input('\n>>Digite a temperatura em Celsius: '))
         Fahrenheit = (celsius * 9/5) + 32
         print(f'{celsius} graus Celsius é igual a {Fahrenheit:.2f} graus Fahrenheit')
     case (2):
-        fahrenheit = float(input('\nDigite a temperatura em Fahrenheit: '))
+        fahrenheit = float(input('\n>>Digite a temperatura em Fahrenheit: '))
         Celsius = (fahrenheit - 32) * 5/9
         print(f'{fahrenheit} graus Fahrenheit é igual a {Celsius:.2f} graus Celsius')
